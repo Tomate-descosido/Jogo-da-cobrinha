@@ -28,7 +28,7 @@ void corpo(){
     int i;
     for(i=0;i<pontos;i++){
         controle(cobra[i][0],cobra[i][1]);
-        printf("%c",219);
+        printf("%c",79);
     } //faz o calculo de quantas unidades do corpo ser�o sesenhadas com base em quantos pontos o jogador tem, 0 pontos significa que n�o ter� unidades do corpo a mais que a pr�pria "cabe�a"
 }
 
@@ -138,22 +138,22 @@ int main(){
     limpar_tela();
     for(i=0;i<50;i++){ //desenha o limite superior do mapa com um delay m�nimo apenas para criar a id�ia de uma anima��o
         controle(i,0);
-        printf("%c",64);
+        printf("%c",178);
         Sleep(5);
     }
     for(i=0;i<25;i++){ //desenha o limite direito do mapa com um delay m�nimo apenas para criar a id�ia de uma anima��o
         controle(50,i);
-        printf("%c",64);
+        printf("%c",178);
         Sleep(5);
     }
     for(i=50;i>0;i--){ //desenha o limite inferior do mapa com um delay m�nimo apenas para criar a id�ia de uma anima��o
         controle(i,25);
-        printf("%c",64);
+        printf("%c",178);
         Sleep(5);
     }
     for(i=25;i>0;i--){ //desenha o limite esquerdo do mapa com um delay m�nimo apenas para criar a id�ia de uma anima��o
         controle(0,i);
-        printf("%c",64);
+        printf("%c",178);
         Sleep(5);
     }
 
