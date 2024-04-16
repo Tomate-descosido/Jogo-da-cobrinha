@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1692822634 source:c:\users\pc\desktop\code bolcks\jogo da cobrinha - eduardop oliveira dobbins\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+
